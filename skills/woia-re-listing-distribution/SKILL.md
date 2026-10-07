@@ -1,55 +1,29 @@
 ---
 name: woia-re-listing-distribution
-description: Guarded ListingVersion distribution with remote observations and Communications handoff.
+description: Prepare authorized ListingVersion channel effects, reconcile remote observations and normalize inbound person interactions toward Communications and Customer Service.
 license: MIT
 ---
 
-# woia-re-listing-distribution
+# Listing distribution
 
 ## Operating flow
 
-~~~text
 DISCOVER -> DECIDE -> IMPLEMENT -> VALIDATE -> REPORT
-~~~
 
-## Purpose
+Read [the contract](references/contract.md) before any effect, changed source/authority binding, unknown result or person interaction. Invocation shape: [command schema](assets/command.schema.json). Deterministic implementation: [publication transitions](scripts/publication.mjs).
 
-Preserve canonical Listing intent while preparing authorized channel effects and normalizing person interactions.
+## Discover and decide
 
-## Minimum sufficient evidence
-
-Use a bounded path when an authoritative existing artifact/evidence set is healthy and the requested change is local and understood:
-
-1. identify the artifact/evidence, source candidate, and affected surface;
-2. load only supporting context and references needed for that surface;
-3. amend or re-evaluate the smallest coherent unit;
-4. verify affected behavior plus mandatory cross-cutting invariants;
-5. preserve unrelated valid artifacts/evidence and report what changed.
-
-Use the deep path for a new artifact, unclear scope or contradictory evidence, public API/event/schema changes, persisted data/migrations, authentication/authorization/secrets/signing/trust boundaries, deployment/rollback/availability risk, cross-provider dependency restructuring, unhealthy or unfamiliar conventions, missing durable required evidence, or a failed invariant that invalidates reused evidence. Load the references/checklists needed by those triggers and retain all required safety validation.
-
-## Discover
-
-Inspect actual repository/system state before changing it. Locate authoritative artifacts/evidence and identify affected standards, constraints, supported platforms, integrations, and user requirements. Expand context when a dependency, uncertainty, or deep-path trigger requires it.
-
-## Decide
-
-Select the smallest strategy that satisfies the capability. Preserve healthy existing standards. Do not infer policy from the author's workspace.
+Resolve accepted exact ListingVersion, content/media digests, Mandate and rights from Property Data/competent owners. Resolve current organization source map, action grant, policy and competent independent approval. Marketing owns public non-paid portal distribution. Property Acquisition consumes scoped readiness/status. Customer Service receives normalized inbound interactions through Communications. Never invent a channel vendor, rights, approval or source facts.
 
 ## Implement
 
-Apply only authorized changes. Keep domain semantics independent from unrelated tooling.
+Invoke the pure transition helper with trusted resolved context and expected durable revision. Persist the returned state atomically with compare-and-swap; retain immutable evidence and operation identities. Create/sync/withdraw prepare effect intents only. A qualified channel adapter must execute the exact approved payload outside this helper. Unknown effects block retry and competing mutations until exact reconciliation. No network adapter is advertised as supported by this candidate.
 
 ## Validate
 
-Run capability-appropriate checks and verify changed state. Reuse evidence only when it is durable, inspectable evidence of actual execution/observation with an identifiable candidate, checked surface, relevant inputs/environment, and outcome. Independently establish that it satisfies the gate being owned; prose claims or recollection are not execution evidence.
-
-A later mutation invalidates the checks whose coverage or inputs it affects. Rerun those checks and mandatory related invariants; preserve unaffected valid evidence. Reuse expensive runtime verification across an unchanged candidate and relevant environment. A new turn/session alone does not invalidate evidence. Execute or observe relevant checks when required evidence cannot be inspected or established. Skipped/unavailable checks are not PASS.
+Desired remote publication and observed remote state remain separate from canonical Listing truth. Fresh channel evidence alone establishes observed state; stale/missing results stay UNKNOWN. Person inquiries/comments/messages become a Communications/Customer Service inbound handoff; never reply here. No spend, payments, canonical Listing mutation or authority service exists in this provider.
 
 ## Report
 
-Report current state, source candidate, affected surface, decisions, changes, and exact usage/maintenance commands. Distinguish reusable evidence, invalidated evidence, freshly established evidence, and assumptions/inferences that are not evidence. Include remaining risks and uncertainties.
-
-## Detailed references
-
-Add focused files under `references/` only when more detail is needed and give each reference a concrete scope/risk/ambiguity load trigger. Load triggered safety references; a bounded amendment does not require every reference or full template replay. Add scripts/assets only when they materially improve deterministic execution.
+Report candidate, intent vs observed result, exact source/approval/evidence revisions, unknown reconciliation obligations and inbound route. Local regression is not Operator E2E or Production Ready.
