@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:woia:re-listing-distribution:command:v1",
+  "title": "Provider invocation envelope, not canonical business relation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["org", "action", "publicationId", "operationId", "expectedRevision", "payload"],
+  "properties": {
+    "org": {"type": "string", "minLength": 1},
+    "action": {"enum": ["channel-publication.create", "channel-publication.sync", "channel-publication.withdraw", "channel-publication.status.observe", "channel-publication.effect.reconcile", "channel-publication.interaction.observe"]},
+    "publicationId": {"type": "string", "minLength": 1},
+    "operationId": {"type": "string", "minLength": 1},
+    "expectedRevision": {"type": "integer", "minimum": 0},
+    "payload": {"type": "object"}
+  }
+}
