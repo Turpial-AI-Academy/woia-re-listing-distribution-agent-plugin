@@ -1,4 +1,4 @@
-# WOIA RE Listing Distribution v0.5.6
+# WOIA RE Listing Distribution v0.5.7
 
 Thin shared provider for exact ListingVersion distribution, separate remote desired/observed state and normalized inbound interactions. See [skill](skills/woia-re-listing-distribution/SKILL.md) and [contract](skills/woia-re-listing-distribution/references/contract.md).
 

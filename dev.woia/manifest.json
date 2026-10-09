@@ -1,7 +1,7 @@
 {
   "schema": "dev.woia.provider-manifest/v1",
   "name": "woia-re-listing-distribution",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "capability": "re-listing-distribution",
   "authoring_profile": "thin",
   "origin": "native",

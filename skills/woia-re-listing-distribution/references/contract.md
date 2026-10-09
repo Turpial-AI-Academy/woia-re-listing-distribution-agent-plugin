@@ -1,6 +1,6 @@
 # Channel publication contract
 
-Permanent semantic source: `Turpial-AI-Academy/woia-re-domain-contracts-agent-plugin@v0.5.6`, commit `fb1c8a3f7fb116f2a00daf05ae335fdfbc7c3f3f`, tree `f3ff5a68a0d5df2e615a650eddc313c9585b7f08`. Its provider, domain-source, authority and E2E design references preserve ChannelPublication and Source Authority, exact approval binding and unknown-effect gates. Logical domain schemas remain owned by that plugin; this helper defines only its invocation envelope. This semantic reference adds no hard intra-wave repository dependency or runtime registry admission.
+Permanent semantic source: `Turpial-AI-Academy/woia-re-domain-contracts-agent-plugin@v0.5.7`, commit `fb1c8a3f7fb116f2a00daf05ae335fdfbc7c3f3f`, tree `f3ff5a68a0d5df2e615a650eddc313c9585b7f08`. Its provider, domain-source, authority and E2E design references preserve ChannelPublication and Source Authority, exact approval binding and unknown-effect gates. Logical domain schemas remain owned by that plugin; this helper defines only its invocation envelope. This semantic reference adds no hard intra-wave repository dependency or runtime registry admission.
 
 Actions: `channel-publication.create`, `channel-publication.sync`, `channel-publication.withdraw`, `channel-publication.status.observe`, `channel-publication.effect.reconcile`, `channel-publication.interaction.observe`.
 
