@@ -1,18 +1,22 @@
 {
   "schema": "dev.woia.provider-manifest/v1",
   "name": "woia-re-listing-distribution",
-  "version": "0.5.0",
+  "version": "0.5.6",
   "capability": "re-listing-distribution",
   "authoring_profile": "thin",
   "origin": "native",
-  "actions": ["channel-publication.create", "channel-publication.sync", "channel-publication.withdraw", "channel-publication.status.observe", "channel-publication.effect.reconcile", "channel-publication.interaction.observe"],
-  "source_contracts": {
-    "repository": "Turpial-AI-Academy/woia-re-domain-contracts-agent-plugin",
-    "version": "0.5.0",
-    "ref": "v0.5.0",
-    "commit": "fb1c8a3f7fb116f2a00daf05ae335fdfbc7c3f3f",
-    "tree": "f3ff5a68a0d5df2e615a650eddc313c9585b7f08",
-    "documents": ["skills/woia-re-domain-contracts/references/provider-contract.md", "skills/woia-re-domain-contracts/references/domain-source-contract.md", "skills/woia-re-domain-contracts/references/authority-contract.md", "skills/woia-re-domain-contracts/references/e2e-design.md"]
-  },
-  "qualification": {"domain_tests": "LOCAL_SYNTHETIC", "live_adapter": "NOT_RUN", "operator_e2e": "NOT_RUN", "production_ready": false}
+  "actions": [
+    "channel-publication.create",
+    "channel-publication.sync",
+    "channel-publication.withdraw",
+    "channel-publication.status.observe",
+    "channel-publication.effect.reconcile",
+    "channel-publication.interaction.observe"
+  ],
+  "qualification": {
+    "domain_tests": "LOCAL_SYNTHETIC",
+    "live_adapter": "NOT_RUN",
+    "operator_e2e": "NOT_RUN",
+    "production_ready": false
+  }
 }

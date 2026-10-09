@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "woia-re-listing-distribution",
-  "version": "0.5.0",
+  "version": "0.5.6",
   "description": "Guarded ListingVersion distribution with remote observations and Communications handoff.",
   "author": {
     "name": "Turpial AI Academy",
@@ -10,5 +10,8 @@
   "homepage": "https://github.com/Turpial-AI-Academy/woia-re-listing-distribution-agent-plugin",
   "repository": "https://github.com/Turpial-AI-Academy/woia-re-listing-distribution-agent-plugin",
   "license": "MIT",
-  "keywords": ["agent-plugin", "woia-re-listing-distribution"]
+  "keywords": [
+    "agent-plugin",
+    "woia-re-listing-distribution"
+  ]
 }
